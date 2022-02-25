@@ -1,0 +1,170 @@
+body
+{
+    background-color: #D7B2DB;
+    font-family: 'Ubuntu', 'Trebuchet MS', 'Tahoma', sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: iniciale;
+    src: url("fonts/Andaluzia Personal Use.ttf");
+}
+
+header, nav, section, footer {
+    width: 80%;
+    margin: auto;
+    
+}
+
+header {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    background-color: #71D962;
+    margin-top: 20px;
+}
+
+nav 
+{
+    background: #3AA66C;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #2C234F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+section {
+    background-color: #627369;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #3AA66C;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+
+footer a, section a {
+    color: rgb(27, 4, 110);
+    
+}
+
+footer a:visited, section a:visited {
+    color: rgb(27, 4, 110);
+}
+
+h1
+{
+    color: #3412CC;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 16px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+h2::first-letter {
+    float: left; 
+    font-size: 50px;
+    line-height: 80px; 
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: iniciale; 
+}
+
+p, h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+p:last-of-type {
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#lablec {
+    padding: 10px;
+}
+
+#fejlec {
+    display: flex;
+}
+
+#galeria {
+    width: 100%;
+    height: max-content;
+    /*border: 1px black solid;*/
+}
+
+#kepek {
+    margin: auto;
+}
+
+#kepek > img, #kepek > canvas
+{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+#jobbra {
+    right: 54px;
+}
+
+.nyil {
+    z-index: 2;
+}
+
+#kep {
+    z-index: 1;
+    right: 27px;
+    max-height: 300px;
+    min-height: 200px;
+}
+
+#balra {
+    transform: rotate(180deg);
+}
+
+#invisible {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+

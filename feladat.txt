@@ -1,0 +1,9 @@
+Házi dolgozat!
+
+Az órai lapszakaszok feladat befejezése az alábbiak szerint:
+
+- stilusos.html oldal megformázása az ízlésed szerint a stilus.css-sel (különféle pozicionálások, színek, betűk használata)
+
+- készíts egy galeria.html oldalt, melyen minden a mappában található kép szerepel; az oldalon legyen visszahivatkozás az index.html-re
+
+- az index.html navigációs részébe helyezz egy újabb hivatkozást, melynek felirata Képgaléria legyen és a galeria.html-re irányít

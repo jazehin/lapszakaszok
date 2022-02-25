@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stilus.css" style type="text/css">
+    <title>Galéria</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="fejlec">
+            <img src="img/frezia.jpg">
+            <h1>Lapszakaszok és mindenféle turpisság</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Nyitólap</a>
+            </li>
+            <li>
+                <a href="stilusos.html">Stílusos nyitólap</a>
+            </li>
+            <li>
+                <a href="http://www.verebelyszki.hu/" target="_blank">Itt tanulunk</a>
+            </li>
+            <li>
+                <a href="mailto:somogyie@verebelyszki.hu">E-mail</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Képgaléria</h2>
+        <!--
+        <article>
+            <div id=galeria>
+                <div id="kepek">
+                    <img src="nyil.png" id="balra" class="nyil" onclick="Balra()">
+                    <img id="kep">
+                    <img src="nyil.png" id="jobbra" class="nyil" onclick="Jobbra()">
+                </div>
+            </div>
+        </article>
+        -->
+        <article>
+            <div id="galeria">
+                <div id="kepek">
+                    <img src="img/blaise_pascal.jpg" id="invisible" onload="KepValtas()">
+                    <img src="img/nyil.png" id="balra" class="nyil" onclick="Balra()">
+                    <canvas id="kep" width="700" height="400"></canvas>
+                    <img src="img/nyil.png" id="jobbra" class="nyil" onclick="Jobbra()">
+                </div>
+            </div>
+        </article>
+        
+    </section>
+    <footer>
+        <div id="lablec">
+            <a href="">Impresszum</a>
+            <a href="">ÁSZF</a>
+            <a href="mailto:somogyie@verebelyszki.hu">Kapcsolat</a>
+            &copy; <span id="copyright"></span>
+        </div>
+    </footer>
+</body>
+</html>
